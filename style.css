@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F8C006;
+}
+
+header, footer {
+    background-color: #13B291;
+    padding: 0;
+}
+
+.name {
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size: 350%;
+    color: white;
+    text-decoration: none;
+    height: 120px;
+}
+
+nav {
+    font-family: "Helvetica Neue";
+    height: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav a {
+    border-right: 8px solid #13B291;
+    height: 95px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color: #A63DBD;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1046px) {
+    nav {
+        height: 149px;
+    }
+    nav a {
+        height: 95px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+#education:hover {
+    background-color: #8A3CD4;
+}
+
+.aeducation {
+    background-color: #8A3CD4;
+}
+
+#motivation:hover {
+    background-color: #CA3972;
+}
+
+.amotivation {
+    background-color: #CA3972;
+}
+
+#experience:hover {
+    background-color: #D43CC4;
+}
+
+.aexperience {
+    background-color: #D43CC4;
+}
+
+#whatnext:hover {
+    background-color: #5C39CA;
+}
+
+.awhatnext {
+    background-color: #5C39CA;
+}
+
+.sectionmotivation {
+    background-color: #CA3972;
+}
+
+.sectioneducation {
+    background-color: #8A3CD4;
+}
+
+.sectionexperience {
+    background-color: #D43CC4;
+}
+
+.sectionwhatnext {
+    background-color: #5C39CA;
+}
+
+.weberimg {
+    margin-top: 20%;
+    width: 100%;
+}
+
+footer {
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+    color: white;
+    font-family: "Helvetica Neue"
+}
+
+footer div {
+    text-align: center;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.phome {
+    overflow: scroll;
+    font-family: "Helvetica Neue";
+    font-size: 350%;
+    color: white;
+}
+
+.arrows {
+    margin-top: 0;
+    margin-bottom: -10%;
+    width: 100%;
+}
+
+.empty {
+    overflow: scroll;
+    font-family: "Helvetica Neue";
+    color: white;
+    max-height: 631px;
+}
+.pmotivation {
+    font-size: 200%;
+}
+
+.ulmotivation {
+    margin-top: 2%;
+    font-size: 150%;
+    padding-left: 10%;
+}
+
+.emotivation {
+    margin-top: 5%;
+    padding: 3%;
+    border: 1px solid white;
+}
+
+li {
+    margin-top: 1%;
+}
+
+h2 {
+    text-align: center;
+    height: 60px;
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dgd, .bb {
+    font-size: 150%;
+}
+
+.bb h2 {
+    font-family: Raleway;
+}
+
+.dgd h2 {
+    font-family: avenir;
+}
+
+.dgd ul, .bb ul {
+    padding-left: 10%;
+}
+
+.pexperience {
+    margin-top: 10%;
+    font-size: 200%;
+    border: 1px solid white;
+}
+
+.explanation {
+    border: 1px solid white;
+}
+
+.peducation {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 3%;
+}
+
+.explanation {
+    font-size: 200%;
+    margin-top: 3%;
+    padding: 3%;
+}
